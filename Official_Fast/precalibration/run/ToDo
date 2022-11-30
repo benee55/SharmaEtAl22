@@ -1,0 +1,18 @@
+To List List
+
+5/26
+- Fix source file so that model runs 
+- Run 1st iteration with 4 nodes 
+- 3 mutation steps
+
+
+
+6/15 - To Do
+
+2. MH
+3.  Generate COvariance Matrix for Proposals
+4. COmbine_MHJ
+
+
+1. Combine_IS
+- Pay attention to weights!!!!! DO not make the same mistake again

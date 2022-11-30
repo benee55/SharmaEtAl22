@@ -1,0 +1,20 @@
+#PBS -A kzk10_a_g_sc_default
+#PBS -l nodes=13:ppn=20
+#PBS -l walltime=24:00:00
+#PBS -N HydroLHS
+#PBS -j oe
+
+echo " "
+echo " "
+echo "Job started on `hostname` at `date`"
+
+cd /gpfs/group/kzk10/default/private/hydrocalib/SGrove/LHSoutput/run
+
+module load gcc/5.3.1
+module load openmpi/1.10.1
+
+mpirun -np 1  -machinefile $PBS_NODEFILE Rscript LHS_run.R
+
+echo " "
+echo "Job Ended at `date`"
+echo " "

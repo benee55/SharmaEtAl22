@@ -1,0 +1,18 @@
+#PBS -l select=1:ncpus=36
+#PBS -N Validation
+#PBS -A UPSU0040
+#PBS -l walltime=01:00:00
+#PBS -j oe
+#PBS -q regular
+
+cd $PBS_O_WORKDIR
+cd ../run_f
+
+echo " "
+echo " "
+echo "Job started on `hostname` at `date`"
+
+module load R
+
+Rscript validation_Run.R $args
+echo "Job ended on `hostname` at `date`"

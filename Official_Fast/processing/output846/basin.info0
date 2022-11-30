@@ -1,0 +1,89 @@
+Basin ID,           AREA(KM^2),                             PIXELS
+SBYP1,              47607.1,                                10579
+-------------------------------------------
+   Average sac Initial Values
+-------------------------------------------
+Variable Name       SBYP1               
+sac_UZTWM           96.67               
+sac_UZFWM           60.1                
+sac_UZK             0.3905              
+sac_PCTIM           0.5947              
+sac_ADIMP           0.6029              
+sac_RIVA            0                   
+sac_ZPERC           343                 
+sac_REXP            2.732               
+sac_LZTWM           6893                
+sac_LZFSM           2159                
+sac_LZFPM           5013                
+sac_LZSK            0.3127              
+sac_LZPK            0.009664            
+sac_PFREE           0.1568              
+sac_SIDE            0                   
+sac_RSERV           0.3                 
+sac_EFC             0                   
+pe_JAN              0.3077              
+pe_FEB              0.7337              
+pe_MAR              1.465               
+pe_APR              2.373               
+pe_MAY              3.188               
+pe_JUN              3.693               
+pe_JUL              3.748               
+pe_AUG              3.333               
+pe_SEP              2.571               
+pe_OCT              1.661               
+pe_NOV              0.8489              
+pe_DEC              0.3533              
+peadj_JAN           0.109               
+peadj_FEB           0.1194              
+peadj_MAR           0.2783              
+peadj_APR           0.4094              
+peadj_MAY           0.8105              
+peadj_JUN           1.047               
+peadj_JUL           1.159               
+peadj_AUG           1.15                
+peadj_SEP           0.9426              
+peadj_OCT           0.6162              
+peadj_NOV           0.3663              
+peadj_DEC           0.2678              
+uztwc               0.5                 
+uzfwc               0                   
+lztwc               0.5                 
+lzfsc               0                   
+lzfpc               0.5                 
+adimpc              0.5                 
+real_uztwc          -1                  
+real_uzfwc          -1                  
+real_lztwc          -1                  
+real_lzfsc          -1                  
+real_lzfpc          -1                  
+real_adimpc         -1                  
+-------------------------------------------
+   Average rutpix9 Initial Values
+-------------------------------------------
+Variable Name       SBYP1               
+rutpix_SLOPH        0.05826             
+rutpix_DS           2.5                 
+rutpix_ROUGH        0.15                
+rutpix_Q0CHN        1.375               
+rutpix_QMCHN        0.7368              
+rutpix_qlos_cnst    0                   
+rutpix_qlos_rate    -1                  
+rutpix_qlos_pow     -1                  
+areac               0.5                 
+areac1              1                   
+areac2              1                   
+areac3              1                   
+areac4              1                   
+depth               0                   
+uhg1                -1                  
+uhg2                -1                  
+uhg3                -1                  
+uhg4                -1                  
+uhg5                -1                  
+uhg6                -1                  
+uhg7                -1                  
+uhg8                -1                  
+uhg9                -1                  
+uhg10               -1                  
+nord                0                   
+channelloss         0                   

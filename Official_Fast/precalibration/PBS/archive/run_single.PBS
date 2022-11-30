@@ -1,0 +1,19 @@
+#PBS -l select=1:ncpus=1
+#PBS -N Test
+#PBS -A UPSU0040
+#PBS -l walltime=01:00:00
+#PBS -j oe
+#PBS -q share
+
+cd $PBS_O_WORKDIR
+cd ../run
+
+echo " "
+echo " "
+echo "Job started on `hostname` at `date`"
+export TMPDIR=/glade/scratch/$USER/temp
+mkdir -p $TMPDIR
+
+module load R/3.6.0 
+Rscript run_single.R
+echo "Job ended on `hostname` at `date`"

@@ -1,0 +1,21 @@
+1. Generate Data + Precalibration + MCMC output:
+test_ComputerModelExample.R
+
+2. MCMC comparison using Famos MCMC algorithm - truncated normal and non-truncated normal
+test_MCMCcomparison.R
+
+3. File to run pre-calibration + generate covariance matrix for run #1
+test_PreCalibration.R
+
+4. Test File for MPI parallelization 
+Test.R
+
+5. Initialization File for Run #1
+test_Initialize.R
+
+6. Run File for FAmos
+test_run.R
+
+7. Source file for Famos
+test_Source.R
+
